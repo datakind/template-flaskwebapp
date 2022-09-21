@@ -35,7 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          header: "Introduction for :{{ github.event.repository.name }}"
+          header: "Introduction for: {{ github.event.repository.name }}"
           footer: ""
           # run: |
           #   echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
