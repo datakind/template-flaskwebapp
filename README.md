@@ -1,1 +1,1 @@
-## Introduction for $REPO_NAME
+## Introduction for <reponame>
