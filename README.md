@@ -1,4 +1,4 @@
-## Introduction for: {{ github.event.repository.name }}
+## Introduction for: ${{ github.event.repository.name }}
 
 
 
