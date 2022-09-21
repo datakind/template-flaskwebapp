@@ -26,4 +26,6 @@ jobs:
           sed -i 's/<reponame>/$REPO_NAME/' README.md
           cat README.md
           echo $REPO_NAME
+          git commit -am "Automated report"
+          git push
 
