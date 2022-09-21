@@ -1,1 +1,1 @@
-## Introduction for +template-flaskwebapp+
+## Introduction for <reponame>
