@@ -23,7 +23,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           ls
-          cat README.ms
+          cat README.md
           echo $REPO_NAME
           echo ${{ github.event.repository.name }}
           echo Add other actions to build,
